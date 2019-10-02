@@ -1,3 +1,17 @@
+body { padding-top: 50px; }
+
+.container-fluid {
+    background-image: url("img/cabbage-4513641_1920.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 90vh;
+} 
+
+nav {
+    /* position: fixed!important; */
+}
 ul {
     margin:0 auto
 }
