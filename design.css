@@ -9,9 +9,15 @@ body { padding-top: 50px; }
     height: 90vh;
 } 
 
-nav {
-    /* position: fixed!important; */
-}
 ul {
-    margin:0 auto
+    margin:0 auto;
+}
+
+li {
+    width:150px;
+}
+
+.card {
+background-color: transparent;
+border:none;
 }
