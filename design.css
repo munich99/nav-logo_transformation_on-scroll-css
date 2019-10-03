@@ -21,3 +21,10 @@ li {
 background-color: transparent;
 border:none;
 }
+
+/* ani part */
+
+.logo {
+    -webkit-transform: scale(3) translateX(10vh) ;
+    transform: scale(5) translateY(10vh) ;
+}
