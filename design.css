@@ -1,5 +1,10 @@
 body { padding-top: 50px; }
 
+.bg-dark {
+    background-color: #354731!important;
+}
+
+
 .container-fluid {
     background-image: url("img/cabbage-4513641_1920.jpg");
     background-position: center;
@@ -17,8 +22,8 @@ li {
 }
 
 .card {
-background-color: transparent;
-border:none;
+    background-color: transparent;
+    border:none;
 }
 
 /* ani part */
@@ -28,8 +33,8 @@ border:none;
     transform: scale(5) translateY(10vh);     
 }
 
-#Layer_1 g {
-    fill: white;
+.logo {
+    fill: red;
 }
 
 .myscrollTransition {
@@ -38,9 +43,10 @@ border:none;
 }
 
 .myscroll {  
+    fill: #354731;
     -webkit-transform: scale(1) translateY(6px);
     transform: scale(1) translateY(6px);
-    fill: black;
+    
 }
 
 .myscrollNav {  
