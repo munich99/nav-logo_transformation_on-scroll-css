@@ -12,7 +12,14 @@ function myFunction() {
         
         var element = document.getElementById("mynav");
         element.classList.add("myscrollNav"); 
+
+        for (var i = 0; i < document.getElementsByClassName("nav-link").length; i++) {
+
+            var element = document.getElementsByClassName("nav-link")[i];
+            element.classList.add("myscrollNavcolor"); 
+        }
     }    
+
     if (y<250  && scroll==false) { 
         scroll = true;        
     }

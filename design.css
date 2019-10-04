@@ -4,6 +4,7 @@ body { padding-top: 50px; }
     background-color: #354731!important;
 }
 
+.navcolor {color:yellowgreen!important;}
 
 .container-fluid {
     background-image: url("img/cabbage-4513641_1920.jpg");
@@ -51,4 +52,11 @@ li {
 
 .myscrollNav {  
     background-color: #fff!important;
+}
+
+.myscrollNavcolor {  
+    color: red!important;
+}
+.myscrollNavcolor:focus, .myscrollNavcolor:hover {
+    color: rgba(255,0,0,.5)!important;
 }
