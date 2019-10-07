@@ -4,7 +4,9 @@ body { padding-top: 50px; }
     background-color: #354731!important;
 }
 
-.navcolor {color:yellowgreen!important;}
+nav {
+    border-bottom: solid 1px #354731;
+}
 
 .container-fluid {
     background-image: url("img/cabbage-4513641_1920.jpg");
@@ -29,33 +31,40 @@ li {
 
 /* ani part */
 
+/* For Startlogo */
 .logo {   
+    fill: white;
    -webkit-transform: scale(5) translateY(10vh);
     transform: scale(5) translateY(10vh);     
 }
 
-.logo {
-    fill: red;
+#mobileLogo {
+    width: 100%;
+    transform: translateY(10vh);
 }
 
-.myscrollTransition {
+#mobileLogo svg{    
+    width: 100%; height: auto;     
+    fill:white
+}
+
+nav > a { 
+    width: 20%;   
+}
+
+nav a img {
+    width: 100%; height: auto;   
+}
+
+/* For Animation */
+.myscrollTransition { 
     -webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
     transition: all 1s;
 }
 
-.myscroll {  
-    fill: #354731;
-    -webkit-transform: scale(1) translateY(6px);
-    transform: scale(1) translateY(6px);
-    
-}
-
-.myscrollNav {  
-    background-color: #fff!important;
-}
-
+/* For for (var i = 0; i < document.getElementsByClassName("nav-link").length; i++) */
 .myscrollNavcolor {  
-    color: red!important;
+    color: #354731!important;
 }
 .myscrollNavcolor:focus, .myscrollNavcolor:hover {
     color: rgba(255,0,0,.5)!important;
