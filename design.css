@@ -4,6 +4,10 @@ body { padding-top: 50px; }
     background-color: #354731!important;
 }
 
+nav {
+    border-bottom: solid 1px #354731;
+}
+
 .container-fluid {
     background-image: url("img/cabbage-4513641_1920.jpg");
     background-position: center;
@@ -34,14 +38,28 @@ li {
     transform: scale(5) translateY(10vh);     
 }
 
+#mobileLogo {
+    width: 100%;
+    transform: translateY(10vh);
+}
+
+#mobileLogo svg{    
+    width: 100%; height: auto;     
+    fill:white
+}
+
+nav > a { 
+    width: 20%;   
+}
+
+nav a img {
+    width: 100%; height: auto;   
+}
+
 /* For Animation */
 .myscrollTransition { 
     -webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
     transition: all 1s;
-}
-.myscrollTransitionSlow { 
-    -webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
-    transition: all 2s;
 }
 
 /* For for (var i = 0; i < document.getElementsByClassName("nav-link").length; i++) */
